@@ -5,7 +5,7 @@ Vue transition components powered by AnimeJS.
 ![](./public/Logo.png)
 
 Demo：
-View in CodeSandbox: [vue-animeta](https://codesandbox.io/s/vue-animeta-jwd7i)
+Open in CodeSandbox: [vue-animeta](https://codesandbox.io/s/vue-animeta-jwd7i)
 
 ## 📦 Install
 
