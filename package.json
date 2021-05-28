@@ -1,6 +1,6 @@
 {
   "name": "vue-animeta",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/animeta.umd.js",
   "license": "MIT",
   "description": "Vue transition components powered by AnimeJS.",
@@ -19,11 +19,11 @@
     "tween",
     "easing"
   ],
-  "homepage": "https://jordanranson.com/projects/animeta/",
+  "homepage": "https://github.com/cherislive/vue-animeta/wiki/",
   "author": {
-    "name": "Jordan Ranson",
-    "email": "jordan@jordanranson.com",
-    "url": "https://jordanranson.com/"
+    "name": "Cheris",
+    "email": "i@cheris.cn",
+    "url": "https://www.cheris.cn/"
   },
   "repository": {
     "type": "git",

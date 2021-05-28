@@ -4,13 +4,15 @@
       <nav class="section nav">
         <div class="section-inner">
           <span class="faded">View the source on </span>
-          <a href="//github.com/jordanranson/animeta">GitHub</a>
+          <a href="//github.com/cherislive/vue-animeta" target="_blank"
+            >GitHub</a
+          >
         </div>
       </nav>
 
       <header class="hero section">
         <div class="section-inner">
-          <img :src="require('./assets/Logo.png')" />
+          <img src="/logo.png" />
         </div>
       </header>
 
@@ -30,13 +32,9 @@
             apps.
           </p>
           <hr class="rule is-small" />
-          <p>
-            Getting started is easy. First, install the package:
-          </p>
+          <p>Getting started is easy. First, install the package:</p>
           <pre class="code">npm install vue-animeta --save</pre>
-          <p>
-            Then, include it in the component you want to use it in:
-          </p>
+          <p>Then, include it in the component you want to use it in:</p>
           <pre class="code">
 import animetaComponents from 'vue-animeta'
 
@@ -190,10 +188,12 @@ const options = {
 
       <footer class="footer section">
         <div class="section-inner faded">
-          &copy; {{ currentYear }} Jordan Ranson
-          <div style="margin-left:auto">
+          &copy; {{ currentYear }} Cheris
+          <div style="margin-left: auto">
             <span class="faded">View the source on </span>
-            <a href="//github.com/jordanranson/animeta">GitHub</a>
+            <a href="//github.com/cherislive/vue-animeta" target="_blank"
+              >GitHub</a
+            >
           </div>
         </div>
       </footer>
@@ -253,8 +253,8 @@ export default {
 </script>
 
 <style lang="sass">
-@import "@/styles/reset.sass"
-@import "@/styles/styles.sass"
+@import "@/assets/styles/reset.sass"
+@import "@/assets/styles/styles.sass"
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:200,400,600")
 
 #app,
