@@ -1,0 +1,74 @@
+{
+  "name": "vue-animeta",
+  "version": "1.0.1",
+  "main": "lib/animeta.umd.js",
+  "license": "MIT",
+  "description": "Vue transition components powered by AnimeJS.",
+  "keywords": [
+    "ui",
+    "ux",
+    "vue",
+    "web",
+    "layout",
+    "front-end",
+    "javascript",
+    "anime",
+    "animate",
+    "amimation",
+    "transition",
+    "tween",
+    "easing"
+  ],
+  "homepage": "https://jordanranson.com/projects/animeta/",
+  "author": {
+    "name": "Jordan Ranson",
+    "email": "jordan@jordanranson.com",
+    "url": "https://jordanranson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherislive/vue-animeta.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build-web": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --dest lib --name animeta ./src/lib/animeta.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
